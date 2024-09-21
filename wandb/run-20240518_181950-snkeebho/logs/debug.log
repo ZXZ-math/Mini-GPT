@@ -1,0 +1,93 @@
+2024-05-18 18:19:50,873 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-18 18:19:50,874 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Configure stats pid to 1279
+2024-05-18 18:19:50,875 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-05-18 18:19:50,875 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Loading settings from /content/drive/MyDrive/MiniGPT/wandb/settings
+2024-05-18 18:19:50,875 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-18 18:19:50,875 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-18 18:19:50,875 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-18 18:19:50,875 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-18 18:19:50,875 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-05-18 18:19:50,876 INFO    MainThread:1279 [wandb_init.py:_log_setup():520] Logging user logs to /content/drive/MyDrive/MiniGPT/wandb/run-20240518_181950-snkeebho/logs/debug.log
+2024-05-18 18:19:50,876 INFO    MainThread:1279 [wandb_init.py:_log_setup():521] Logging internal logs to /content/drive/MyDrive/MiniGPT/wandb/run-20240518_181950-snkeebho/logs/debug-internal.log
+2024-05-18 18:19:50,876 INFO    MainThread:1279 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x78748c356920>
+2024-05-18 18:19:50,876 INFO    MainThread:1279 [wandb_init.py:init():560] calling init triggers
+2024-05-18 18:19:50,877 INFO    MainThread:1279 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-05-18 18:19:50,877 INFO    MainThread:1279 [wandb_init.py:init():585] re-initializing run, found existing run on stack: 0pd66x03
+2024-05-18 18:19:50,879 INFO    MainThread:1279 [wandb_run.py:_finish():2103] finishing run zxzucla/dl2_proj3_minigpt/0pd66x03
+2024-05-18 18:19:50,879 INFO    MainThread:1279 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-05-18 18:19:50,880 INFO    MainThread:1279 [wandb_run.py:_restore():2326] restore
+2024-05-18 18:19:50,880 INFO    MainThread:1279 [wandb_run.py:_restore():2332] restore done
+2024-05-18 18:19:58,926 INFO    MainThread:1279 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-18 18:19:58,927 INFO    MainThread:1279 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-18 18:19:58,935 INFO    MainThread:1279 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-05-18 18:19:58,942 INFO    MainThread:1279 [wandb_init.py:init():610] starting backend
+2024-05-18 18:19:58,942 INFO    MainThread:1279 [wandb_init.py:init():614] setting up manager
+2024-05-18 18:19:58,946 INFO    MainThread:1279 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-18 18:19:58,946 INFO    MainThread:1279 [wandb_init.py:init():622] backend started and connected
+2024-05-18 18:19:58,959 INFO    MainThread:1279 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-18 18:19:59,993 INFO    MainThread:1279 [wandb_init.py:init():711] updated telemetry
+2024-05-18 18:20:00,022 INFO    MainThread:1279 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-18 18:20:00,680 INFO    MainThread:1279 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-18 18:20:00,774 INFO    MainThread:1279 [wandb_run.py:_on_init():2405] got version response 
+2024-05-18 18:20:00,774 INFO    MainThread:1279 [wandb_init.py:init():795] starting run threads in backend
+2024-05-18 18:20:01,206 INFO    MainThread:1279 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-18 18:20:01,207 INFO    MainThread:1279 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-18 18:20:01,207 INFO    MainThread:1279 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-18 18:20:01,207 INFO    MainThread:1279 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-18 18:20:01,208 INFO    MainThread:1279 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-18 18:20:01,364 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:20:01,365 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:22:25,229 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:22:25,243 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:22:25,243 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:23:42,490 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:23:42,495 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:23:42,495 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:24:01,865 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:24:01,872 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:24:01,872 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:24:53,470 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:24:53,517 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:24:53,517 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:25:06,440 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:25:06,464 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:25:06,465 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:25:19,889 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:25:19,926 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:25:19,927 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:25:48,557 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:25:48,592 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:25:48,592 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:26:10,605 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:26:10,641 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:26:10,642 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:26:20,733 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:26:20,772 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:26:20,772 INFO    MainThread:1279 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-18 18:29:31,407 INFO    MainThread:1279 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-18 18:29:31,510 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-18 18:29:31,512 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Configure stats pid to 1279
+2024-05-18 18:29:31,512 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-05-18 18:29:31,512 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Loading settings from /content/drive/MyDrive/MiniGPT/wandb/settings
+2024-05-18 18:29:31,512 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-18 18:29:31,513 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-18 18:29:31,513 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-18 18:29:31,513 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-18 18:29:31,513 INFO    MainThread:1279 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-05-18 18:29:31,514 INFO    MainThread:1279 [wandb_init.py:_log_setup():520] Logging user logs to /content/drive/MyDrive/MiniGPT/wandb/run-20240518_182931-v8ajd5cm/logs/debug.log
+2024-05-18 18:29:31,514 INFO    MainThread:1279 [wandb_init.py:_log_setup():521] Logging internal logs to /content/drive/MyDrive/MiniGPT/wandb/run-20240518_182931-v8ajd5cm/logs/debug-internal.log
+2024-05-18 18:29:31,514 INFO    MainThread:1279 [wandb_init.py:init():560] calling init triggers
+2024-05-18 18:29:31,514 INFO    MainThread:1279 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-05-18 18:29:31,515 INFO    MainThread:1279 [wandb_init.py:init():585] re-initializing run, found existing run on stack: snkeebho
+2024-05-18 18:29:31,517 INFO    MainThread:1279 [wandb_run.py:_finish():2103] finishing run zxzucla/dl2_proj3_minigpt/snkeebho
+2024-05-18 18:29:31,518 INFO    MainThread:1279 [jupyter.py:save_history():445] not saving jupyter history
+2024-05-18 18:29:31,518 INFO    MainThread:1279 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-18 18:29:31,518 INFO    MainThread:1279 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-05-18 18:29:31,518 INFO    MainThread:1279 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-05-18 18:29:31,519 INFO    MainThread:1279 [wandb_run.py:_restore():2326] restore
+2024-05-18 18:29:31,519 INFO    MainThread:1279 [wandb_run.py:_restore():2332] restore done
+2024-05-18 18:29:38,554 INFO    MainThread:1279 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-18 18:29:38,554 INFO    MainThread:1279 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-18 18:29:38,562 INFO    MainThread:1279 [wandb_run.py:_footer_sync_info():3953] logging synced files

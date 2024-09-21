@@ -1,0 +1,4 @@
+
+number of trainable parameters: 3.27M
+test:   0%|          | 0/118398 [00:00<?, ?it/s]t/s]
+training:   0%|          | 0/473591 [00:00<?, ?it/s]

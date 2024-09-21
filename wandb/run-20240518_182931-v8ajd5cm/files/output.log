@@ -1,0 +1,9 @@
+
+number of trainable parameters: 3.27M
+
+
+
+
+training:   1%|          | 3119/473591 [00:13<34:34, 226.81it/s]
+torch.Size([32, 1])
+torch.Size([32, 50257])

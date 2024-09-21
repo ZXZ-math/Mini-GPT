@@ -1,0 +1,187 @@
+2024-05-18 18:44:59,034 INFO    StreamThr :6973 [internal.py:wandb_internal():85] W&B internal server running at pid: 6973, started at: 2024-05-18 18:44:59.031528
+2024-05-18 18:44:59,037 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: status
+2024-05-18 18:44:59,038 INFO    WriterThread:6973 [datastore.py:open_for_write():87] open: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/run-5yiyvflr.wandb
+2024-05-18 18:44:59,040 DEBUG   SenderThread:6973 [sender.py:send():378] send: header
+2024-05-18 18:44:59,040 DEBUG   SenderThread:6973 [sender.py:send():378] send: run
+2024-05-18 18:44:59,188 INFO    SenderThread:6973 [dir_watcher.py:__init__():211] watching files in: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files
+2024-05-18 18:44:59,188 INFO    SenderThread:6973 [sender.py:_start_run_threads():1123] run started: 5yiyvflr with start time 1716057898.054464
+2024-05-18 18:44:59,202 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: check_version
+2024-05-18 18:44:59,203 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: check_version
+2024-05-18 18:44:59,345 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: run_start
+2024-05-18 18:44:59,346 DEBUG   HandlerThread:6973 [system_info.py:__init__():26] System info init
+2024-05-18 18:44:59,346 DEBUG   HandlerThread:6973 [system_info.py:__init__():41] System info init done
+2024-05-18 18:44:59,346 INFO    HandlerThread:6973 [system_monitor.py:start():194] Starting system monitor
+2024-05-18 18:44:59,346 INFO    SystemMonitor:6973 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-18 18:44:59,347 INFO    HandlerThread:6973 [system_monitor.py:probe():214] Collecting system info
+2024-05-18 18:44:59,347 INFO    SystemMonitor:6973 [interfaces.py:start():188] Started cpu monitoring
+2024-05-18 18:44:59,348 INFO    SystemMonitor:6973 [interfaces.py:start():188] Started disk monitoring
+2024-05-18 18:44:59,349 INFO    SystemMonitor:6973 [interfaces.py:start():188] Started gpu monitoring
+2024-05-18 18:44:59,349 INFO    SystemMonitor:6973 [interfaces.py:start():188] Started memory monitoring
+2024-05-18 18:44:59,350 INFO    SystemMonitor:6973 [interfaces.py:start():188] Started network monitoring
+2024-05-18 18:44:59,355 DEBUG   HandlerThread:6973 [system_info.py:probe():150] Probing system
+2024-05-18 18:44:59,360 DEBUG   HandlerThread:6973 [system_info.py:_probe_git():135] Probing git
+2024-05-18 18:44:59,396 DEBUG   HandlerThread:6973 [system_info.py:_probe_git():143] Probing git done
+2024-05-18 18:44:59,396 DEBUG   HandlerThread:6973 [system_info.py:probe():198] Probing system done
+2024-05-18 18:44:59,396 DEBUG   HandlerThread:6973 [system_monitor.py:probe():223] {'os': 'Linux-6.1.85+-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-05-18T18:44:59.355992', 'startedAt': '2024-05-18T18:44:53.856092', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Language_Modelling.ipynb', 'codePathLocal': 'Language_Modelling.ipynb', 'colab': 'https://colab.research.google.com/notebook#fileId=11GdvPYwxVV2ZdEuafL4lNbTMEJG2Gxxe', 'git': {'remote': 'https://github.com/shreyasrajesh0308/MiniGPT.git', 'commit': '838c0c5735890bcf49a4c21cfc84e07d75690728'}, 'email': None, 'root': '/content/drive/MyDrive/MiniGPT', 'host': 'a39715ce4179', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2200.2240000000006, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}, {'current': 2200.224, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 201.22513961791992, 'used': 29.946582794189453}}, 'gpu': 'NVIDIA A100-SXM4-40GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}], 'memory': {'total': 83.47704696655273}}
+2024-05-18 18:44:59,397 INFO    HandlerThread:6973 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-18 18:44:59,397 INFO    HandlerThread:6973 [system_monitor.py:probe():227] Publishing system info
+2024-05-18 18:44:59,401 INFO    HandlerThread:6973 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-18 18:44:59,402 DEBUG   SenderThread:6973 [sender.py:send():378] send: files
+2024-05-18 18:44:59,402 INFO    SenderThread:6973 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-18 18:44:59,641 INFO    wandb-upload_0:6973 [upload_job.py:push():130] Uploaded file /tmp/tmpc84h8m56wandb/owgu4i2c-wandb-metadata.json
+2024-05-18 18:44:59,773 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-18 18:44:59,774 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: python_packages
+2024-05-18 18:44:59,775 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-18 18:44:59,779 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: stop_status
+2024-05-18 18:44:59,860 DEBUG   SenderThread:6973 [sender.py:send():378] send: telemetry
+2024-05-18 18:44:59,901 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-18 18:44:59,902 DEBUG   SenderThread:6973 [sender.py:send():378] send: history
+2024-05-18 18:44:59,902 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: summary_record
+2024-05-18 18:44:59,906 INFO    SenderThread:6973 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-18 18:45:00,191 INFO    Thread-25 :6973 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/wandb-summary.json
+2024-05-18 18:45:00,191 INFO    Thread-25 :6973 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/wandb-metadata.json
+2024-05-18 18:45:00,192 INFO    Thread-25 :6973 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/requirements.txt
+2024-05-18 18:45:00,192 INFO    Thread-25 :6973 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/output.log
+2024-05-18 18:45:05,036 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: status_report
+2024-05-18 18:45:10,037 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: status_report
+2024-05-18 18:45:14,774 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-18 18:45:14,775 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: stop_status
+2024-05-18 18:45:15,874 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: status_report
+2024-05-18 18:45:20,875 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: status_report
+2024-05-18 18:45:25,876 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: status_report
+2024-05-18 18:45:26,431 DEBUG   SenderThread:6973 [sender.py:send():378] send: telemetry
+2024-05-18 18:45:26,433 DEBUG   SenderThread:6973 [sender.py:send():378] send: exit
+2024-05-18 18:45:26,433 INFO    SenderThread:6973 [sender.py:send_exit():585] handling exit code: 0
+2024-05-18 18:45:26,433 INFO    SenderThread:6973 [sender.py:send_exit():587] handling runtime: 27
+2024-05-18 18:45:26,437 INFO    SenderThread:6973 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-18 18:45:26,438 INFO    SenderThread:6973 [sender.py:send_exit():593] send defer
+2024-05-18 18:45:26,438 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:26,438 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-18 18:45:26,439 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:26,439 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-18 18:45:26,439 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 1
+2024-05-18 18:45:26,439 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:26,439 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-18 18:45:26,439 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:26,440 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-18 18:45:26,440 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 2
+2024-05-18 18:45:26,440 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:26,440 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-18 18:45:26,440 INFO    HandlerThread:6973 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-18 18:45:26,440 DEBUG   SystemMonitor:6973 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-18 18:45:26,441 DEBUG   SystemMonitor:6973 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-18 18:45:26,441 INFO    HandlerThread:6973 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-18 18:45:26,441 DEBUG   SystemMonitor:6973 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-18 18:45:26,442 INFO    HandlerThread:6973 [interfaces.py:finish():200] Joined disk monitor
+2024-05-18 18:45:26,448 INFO    HandlerThread:6973 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-18 18:45:26,449 INFO    HandlerThread:6973 [interfaces.py:finish():200] Joined memory monitor
+2024-05-18 18:45:26,449 INFO    HandlerThread:6973 [interfaces.py:finish():200] Joined network monitor
+2024-05-18 18:45:26,450 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:26,450 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-18 18:45:26,450 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 3
+2024-05-18 18:45:26,450 DEBUG   SenderThread:6973 [sender.py:send():378] send: stats
+2024-05-18 18:45:26,450 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:26,450 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-18 18:45:26,451 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:26,451 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-18 18:45:26,451 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 4
+2024-05-18 18:45:26,451 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:26,452 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-18 18:45:26,452 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:26,452 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-18 18:45:26,452 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 5
+2024-05-18 18:45:26,452 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:26,452 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-18 18:45:26,453 DEBUG   SenderThread:6973 [sender.py:send():378] send: summary
+2024-05-18 18:45:26,458 INFO    SenderThread:6973 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-18 18:45:26,459 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:26,459 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-18 18:45:26,459 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 6
+2024-05-18 18:45:26,459 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:26,459 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-18 18:45:26,460 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:26,460 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-18 18:45:26,463 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: status_report
+2024-05-18 18:45:26,533 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 7
+2024-05-18 18:45:26,533 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:26,534 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-18 18:45:26,534 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:26,534 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-18 18:45:27,239 INFO    Thread-25 :6973 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/config.yaml
+2024-05-18 18:45:27,239 INFO    Thread-25 :6973 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/wandb-summary.json
+2024-05-18 18:45:27,433 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 18:45:29,898 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 8
+2024-05-18 18:45:29,898 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 18:45:29,898 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:29,899 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-18 18:45:29,899 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:29,899 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-18 18:45:29,900 INFO    SenderThread:6973 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-18 18:45:29,902 INFO    SenderThread:6973 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-05-18 18:45:29,902 INFO    SenderThread:6973 [job_builder.py:_get_program_relpath():583] run is notebook based run
+2024-05-18 18:45:29,906 INFO    SenderThread:6973 [job_builder.py:build():541] adding wandb-job metadata file
+2024-05-18 18:45:29,918 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 9
+2024-05-18 18:45:29,918 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:29,918 DEBUG   SenderThread:6973 [sender.py:send():378] send: artifact
+2024-05-18 18:45:29,918 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-18 18:45:30,047 INFO    SenderThread:6973 [sender.py:send_artifact():1467] sent artifact job-https___github.com_shreyasrajesh0308_MiniGPT.git_Language_Modelling.ipynb - {'id': 'QXJ0aWZhY3Q6ODQxNDYwMzEy', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3NjQ2Mzg0MQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODQxNDYwMzEy', 'versionIndex': 1}}}
+2024-05-18 18:45:30,047 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:30,047 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-18 18:45:30,047 INFO    SenderThread:6973 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-18 18:45:30,242 INFO    SenderThread:6973 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/output.log
+2024-05-18 18:45:30,243 INFO    SenderThread:6973 [dir_watcher.py:finish():388] scan: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files
+2024-05-18 18:45:30,243 INFO    SenderThread:6973 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/config.yaml config.yaml
+2024-05-18 18:45:30,244 INFO    SenderThread:6973 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/wandb-metadata.json wandb-metadata.json
+2024-05-18 18:45:30,244 INFO    SenderThread:6973 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/requirements.txt requirements.txt
+2024-05-18 18:45:30,247 INFO    SenderThread:6973 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/output.log output.log
+2024-05-18 18:45:30,250 INFO    SenderThread:6973 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/wandb-summary.json wandb-summary.json
+2024-05-18 18:45:30,252 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 10
+2024-05-18 18:45:30,253 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:30,255 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-18 18:45:30,255 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:30,256 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-18 18:45:30,256 INFO    SenderThread:6973 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-18 18:45:30,387 INFO    wandb-upload_0:6973 [upload_job.py:push():130] Uploaded file /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/config.yaml
+2024-05-18 18:45:30,434 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 18:45:30,434 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 18:45:30,538 INFO    wandb-upload_1:6973 [upload_job.py:push():130] Uploaded file /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/requirements.txt
+2024-05-18 18:45:30,628 INFO    wandb-upload_2:6973 [upload_job.py:push():130] Uploaded file /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/output.log
+2024-05-18 18:45:30,631 INFO    wandb-upload_3:6973 [upload_job.py:push():130] Uploaded file /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/files/wandb-summary.json
+2024-05-18 18:45:30,832 INFO    Thread-24 (_thread_body):6973 [sender.py:transition_state():613] send defer: 11
+2024-05-18 18:45:30,833 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:30,833 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-18 18:45:30,833 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:30,833 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-18 18:45:30,833 INFO    SenderThread:6973 [file_pusher.py:join():175] waiting for file pusher
+2024-05-18 18:45:30,834 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 12
+2024-05-18 18:45:30,834 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:30,834 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-18 18:45:30,834 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:30,834 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-18 18:45:30,835 INFO    SenderThread:6973 [file_stream.py:finish():601] file stream finish called
+2024-05-18 18:45:30,886 INFO    SenderThread:6973 [file_stream.py:finish():605] file stream finish is done
+2024-05-18 18:45:30,886 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 13
+2024-05-18 18:45:30,886 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:30,887 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-18 18:45:30,887 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:30,887 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-18 18:45:30,887 INFO    SenderThread:6973 [sender.py:transition_state():613] send defer: 14
+2024-05-18 18:45:30,887 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 18:45:30,888 DEBUG   SenderThread:6973 [sender.py:send():378] send: final
+2024-05-18 18:45:30,888 INFO    HandlerThread:6973 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-18 18:45:30,888 DEBUG   SenderThread:6973 [sender.py:send():378] send: footer
+2024-05-18 18:45:30,888 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: defer
+2024-05-18 18:45:30,888 INFO    SenderThread:6973 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-18 18:45:30,889 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 18:45:30,889 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 18:45:30,891 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-18 18:45:30,892 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: server_info
+2024-05-18 18:45:30,893 DEBUG   SenderThread:6973 [sender.py:send_request():405] send_request: server_info
+2024-05-18 18:45:30,908 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-18 18:45:30,908 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-18 18:45:30,949 DEBUG   HandlerThread:6973 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-18 18:45:30,949 INFO    HandlerThread:6973 [handler.py:finish():882] shutting down handler
+2024-05-18 18:45:31,893 INFO    WriterThread:6973 [datastore.py:close():296] close: /content/drive/MyDrive/MiniGPT/wandb/run-20240518_184453-5yiyvflr/run-5yiyvflr.wandb
+2024-05-18 18:45:31,907 INFO    SenderThread:6973 [sender.py:finish():1545] shutting down sender
+2024-05-18 18:45:31,908 INFO    SenderThread:6973 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-18 18:45:31,908 INFO    SenderThread:6973 [file_pusher.py:join():175] waiting for file pusher

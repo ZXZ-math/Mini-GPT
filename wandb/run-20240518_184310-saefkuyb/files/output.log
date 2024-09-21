@@ -1,0 +1,6 @@
+
+number of trainable parameters: 3.32M
+training:   0%|          | 0/1515490 [00:01<?, ?it/s]
+torch.Size([10, 10])
+torch.Size([10, 10])
+torch.Size([10, 50257, 10])
